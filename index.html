@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Gratia</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text:400i|Montserrat:700" rel="stylesheet">
+  <link media="all" rel="stylesheet" href="main.css">
+	<link media="all" rel="stylesheet" href="media.css">
+</head>
+<body>
+	<header>
+		<a href="#" class="logo"><img src="images/logo.png" alt="img">Gratia</a>
+		<button id="nav-opener" onclick="myClick()">
+			<i class="fas fa-bars bar"></i>
+		</button>
+		<nav class="main-nav">
+			<ul class="nav-list">
+       <li><a href="#" class="nav-item">About</a></li>
+       <li><a href="#" class="nav-item">Menu</a></li>
+       <li><a href="#" class="nav-item">Gallery</a></li>
+       <li><a href="#" class="nav-item">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section class="top-section">
+		<div class="top-gallery-background">
+		<p>details</p>
+		<div class="gap"><span>ma</span><span>ke</span></div>
+		<p>perfection</p>
+	  </div>
+		<div class="top-gallery">
+		<button type="button" class="prev"></button>
+		<img src="images/knife.png" alt="img">
+		<button type="button" class="next"></button>
+	  </div>
+		<div class="slider-bottom">
+		<ul class="pages">
+			<li><a href="#">01</a></li>
+		  <li><a href="#">02</a></li>
+		  <li><a href="#">03</a></li>
+		</ul>
+		<a class="arrow">and perfection is not a detail<i class="fas fa-arrow-down"></i></a>
+		<div class="button-book">
+	  <button type="button" class="book">book a table</button>
+		</div>
+ 	  </div>
+	</section>
+	<section class="perfection">
+		<div class="heading">
+		<h1>perfection</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+	</div>
+	<div class="fotos gallery">
+		<a href="#" class="foto foto1">
+			<div class="content">
+				<h2>deserts</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</div>
+			</a>
+	  <a href="#" class="foto foto2">
+			<div class="content">
+				<h2>smoothies</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+			</a>
+		<a href="#" class="foto foto3">
+			<div class="content">
+				<h2>breakfast</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+			</a>
+	</div>
+	<a class="options">check other offers</a>
+	</section>
+	<section class="details">
+		<div class="det-content">
+		<div class="border">
+			<h2>details</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			<button class="button">preparation of our dishes</button>
+		</div>
+	</div>
+	</section>
+	<section class="how">
+		<div class="heading">
+		<h1>how we reach this?</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+	  </div>
+		<div class="bottom-gallery gallery">
+			<a href="#" class="bottom-gallery-item">
+				<div class="bottom-gallery-background">4</div>
+				<div class="bottom-gallery-content item1">
+				<h2>different locations</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+			</a>
+			<a href="#" class="bottom-gallery-item">
+				<div class="bottom-gallery-background">532</div>
+				<div class="bottom-gallery-content item2">
+				<h2>fresh products</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+			</a>
+			<a href="#" class="bottom-gallery-item">
+				<div class="bottom-gallery-background">16</div>
+				<div class="bottom-gallery-content item3">
+				<h2>the best from the beggining</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+			</a>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="bottom-logo">
+			<img src="images/logo.png" alt"img"></img>
+		</div>
+		<h3>Gratia Restaurant</h3>
+		<p>Copyright 2016. All rights reserved by symu</p>
+		<div class="sotial_logo">
+			<a href="#" class="sotial"><i class="fab fa-facebook-f"></i></a>
+			<a href="#" class="sotial"><i class="fab fa-twitter"></i></a>
+			<a href="#" class="sotial"><i class="fab fa-instagram"></i></a>
+		</div>
+	</footer>
+	<script>
+		var body = document.getElementsByTagName('body')[0];
+		function myClick(){
+			body.classList.toggle('nav-active');
+		}
+	</script>
+</body>
+</html>
